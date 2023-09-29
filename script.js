@@ -44,6 +44,8 @@ function showSuggestions(results, inputVal) {
     });
    }
 
+   //I'm uncertain how to bold the matching letters
+
 }
 
 

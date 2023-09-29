@@ -40,6 +40,12 @@
     width: 75vw;
     max-width: 300px;
   }
+
+/* how do I make this change to lighter when hovering over another li? */
+  ul li:first-of-type{
+    background-color:#fd7b4c;
+  }
+
   
   ul li:hover {
     background-color: #fd7b4c;
