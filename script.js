@@ -21,7 +21,6 @@ function search(str) {
 }
 
 function searchHandler(e) {
-	// TODO
     //puting together search and showSuggestions to happen simultaneously on screen
 
     e.preventDefault();
@@ -30,9 +29,6 @@ function searchHandler(e) {
 }
 
 function showSuggestions(results, inputVal) {
-	// TODO
-    //Display The Results List As A Drop Down
-   //highlight the suggestion below a user's cursor
    inputVal = input.value;
    results = search(inputVal);
 
@@ -53,7 +49,6 @@ function showSuggestions(results, inputVal) {
 
 
 function useSuggestion(e) {
-	// TODO
     //Populate the search box with a user’s selected suggestion
     input.value = e.target.innerText;
     suggestions.innerHTML = '';
